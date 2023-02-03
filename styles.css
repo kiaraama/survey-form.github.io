@@ -1,0 +1,114 @@
+*, ::before, ::after {
+    margin: 0px ;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url(survey-form-background.jpeg) no-repeat;
+    color: white;
+    align-items: center;
+    font-family:'Poppins', sans-serif;
+    
+}
+header{
+    line-height: 40px;
+    text-align: center;
+}
+header h1{
+    text-align: center;
+    margin-top: 50px;  
+    font-weight: 700;
+    line-height: 40px; 
+    font-size: xx-large;
+}
+header p{
+    font-weight: lighter;
+    font-size: larger;
+}
+.card-box{
+position: absolute;
+left:25%;
+top:25%;
+background-color: #1b1b32;
+width: 50%;
+border: #1b1b32;
+border-radius: 5px;
+width: 700px;
+height: auto;
+font-weight: 400;
+font-size: medium;
+}
+form{
+    margin: 50px;
+}
+.enter{
+
+}
+label {
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 25px;
+    align-items: center;
+}
+label[for=""]{
+    margin-bottom: 10px;
+}
+span{
+    font-size: small;
+}
+input[type="text"]{
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+#role {
+width: 100%;
+height: 40px;
+margin-bottom: 20px;
+border-radius: 6px;
+}
+#features{
+width: 100%;
+height: 40px;
+margin-bottom: 20px;
+border-radius: 6px;
+}
+input[type="submit"]{
+    background-color: green;
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    color: white;
+}
+#comment{
+width: 100%;
+margin-bottom: 20px;
+}
+::placeholder{
+    font-size: medium;
+    text-align: left;
+    font-weight: 400;
+}
+input[type="radio"]{
+    margin-bottom: 20px;
+    width: 17px;
+    height: 17px;
+    text-align: center;
+}
+input[type="checkbox"]{
+    width: 17px;
+    height: 17px;
+    padding-right: 30px;
+}
+.xbox{
+    margin-bottom: 30px;
+}
+option[value=""]{
+    font-size: medium;
+    text-align: left;
+}
